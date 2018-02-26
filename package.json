@@ -1,0 +1,14 @@
+{
+  "name": "virtual-pet",
+  "version": "1.0.0",
+  "description": "Virtual Pet for Manchester Codes curriculum",
+  "main": "src/pet.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Michael Harrison",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
