@@ -1,4 +1,4 @@
-const DEATH_MESSAGE = 'Fido is no longer alive :(';
+const DEATH_MESSAGE = 'Your pet is no longer alive :(';
 const MINIMUM_AGE = 0;
 const MAXIMUM_AGE = 30;
 const MINIMUM_FITNESS = 0;

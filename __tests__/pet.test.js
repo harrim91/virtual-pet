@@ -50,7 +50,7 @@ describe('growUp', () => {
     pet.age = 30;
     expect(() => {
       pet.growUp();
-    }).toThrow('Fido is no longer alive :(');
+    }).toThrow('Your pet is no longer alive :(');
   });
 });
 
@@ -74,7 +74,7 @@ describe('walk', () => {
     pet.age = 30;
     expect(() => {
       pet.walk();
-    }).toThrow('Fido is no longer alive :(');
+    }).toThrow('Your pet is no longer alive :(');
   });
 });
 
@@ -98,7 +98,7 @@ describe('feed', () => {
     pet.age = 30;
     expect(() => {
       pet.feed();
-    }).toThrow('Fido is no longer alive :(');
+    }).toThrow('Your pet is no longer alive :(');
   });
 });
 
@@ -133,7 +133,7 @@ describe('checkUp', () => {
 
     pet.age = 30;
 
-    expect(pet.checkUp()).toEqual('Fido is no longer alive :(');
+    expect(pet.checkUp()).toEqual('Your pet is no longer alive :(');
   });
 });
 
